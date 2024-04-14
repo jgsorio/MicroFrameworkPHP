@@ -1,0 +1,21 @@
+{
+  "name": "guilherme/pdo-with-querybuilder-and-paginator",
+  "description": "Projeto criado acompanhando o curdo de PDO",
+  "authors": [
+    {
+      "name": "José Guilherme Sório",
+      "email": "joseguilhermesorio@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+      "app/functions/helpers.php"
+    ]
+  },
+  "require": {
+    "ext-pdo": "*"
+  }
+}
